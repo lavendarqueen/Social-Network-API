@@ -1,18 +1,11 @@
-# <Project-Title>
+# <Social-Network-API>
 
-Social-Network-API
+![vite](https://img.shields.io/badge/vite-5.1.6-violet) ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath) ![Express](https://img.shields.io/badge/Express-4.19.2-blue) ![Mongoose](https://img.shields.io/badge/Mongoose-8.4.0-green)
 
 ## Description
 
-An API for a social network that uses a NoSQL database
-so that the website can handle large amounts of unstructured data.
-
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project?
-- What problem does it solve?
-- What did you learn?
+Social-Network-API is an API for a social network that uses a NoSQL database
+so that the website can handle large amounts of unstructured data. I built this project because I wanted to learn how to use a database with unstructured data. I learned how to use compass and Insomnia to check and manipulate the Mongo database.
 
 ## Table of Contents (Optional)
 
@@ -25,28 +18,28 @@ Provide a short description explaining the what, why, and how of your project. U
 - [Questions](#questions)
 - [User Story](#user_story)
 
-## Features
-
-If your project has a lot of features, list them here.
-
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+Installation required installation of express and mongoose from the command line as follows:
+
+npm express@4.19.2
+npm mongoose@
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+The user must turn on the server by entering the following command in the command line:
 
-![alt text](assets/images/screenshot.png)
+
 
 ## Tests
 
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+All routes were tested using Insomnia. Please see screenshots and video walk-through;
+
+![alt text](assets/images/screenshot.png)
 
 ## Credits
 
-I collaborated with the following individuals:
+I collaborated with the following individuals: Fellow student Melissa Cade and Tutor Megan Meyers.
 
 I also consulted the following third-party assets:
 
@@ -88,7 +81,7 @@ Please reach out by email or visit my GitHub account with any questions:
 - Email: lataillep@gmail.com
 - GitHub Username: lavendarqueen
 - Deployed Website: <Link>
-- GitHub Repository: <Link>
+- GitHub Repository: <https://github.com/lavendarqueen/Social-Network-API
 
 ## User Story
 
