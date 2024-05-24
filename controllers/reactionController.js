@@ -2,28 +2,32 @@ const { ObjectId } = require("mongoose").Types;
 const { User, Thought, Reaction } = require("../models");
 
 module.exports = {
-  async addREaction(rec, res) {
+  async addReaction(req, res) {
     try {
       const reaction = await Thought.findOneAndUpdate(
         { _id: req.params.thoughtId },
-        { $addToSet: { reactions: req.body } }
-      ).populate("reactions");
+        { $addToSet: { reactions: req.body } },
+        {
+          new: true,
+          runValidators: true,
+        }
+      );
       res.status(200).json({
         message: "Reaction created successfully.",
         reaction,
       });
     } catch (err) {
-      res.status(500).json(err);
+      res.status(500).json(err.message);
     }
   },
 
-  async removeReaction(rec, res) {
+  async removeReaction(req, res) {
     try {
-      const thought = await Thought.findOnAndUpdate(
+      const thought = await Thought.findOneAndUpdate(
         {
           _id: req.params.thoughtId,
         },
-        { $pull: { reactions: { _id: req.params.reactionID } } },
+        { $pull: { reactions: { reactionId: req.params.reactionId } } },
         { new: true }
       );
       if (!thought) {
@@ -35,7 +39,7 @@ module.exports = {
         message: "Reaction successfully deleted.",
       });
     } catch (err) {
-      res.status(500).json(err);
+      res.status(500).json(err.message);
     }
   },
 };
