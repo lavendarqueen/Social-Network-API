@@ -4,8 +4,7 @@
 
 ## Description
 
-Social-Network-API is an API for a social network that uses a NoSQL database
-so that the website can handle large amounts of unstructured data. I built this project because I wanted to learn how to use a database with unstructured data. I learned how to use compass and Insomnia to check and manipulate the Mongo database.
+Social-Network-API is an API for a social network that uses a NoSQL database so that the website can handle large amounts of unstructured data. I built this project because I wanted to learn how to use a database with unstructured data. I learned how to write queries and run validation.
 
 ## Table of Contents (Optional)
 
@@ -29,19 +28,35 @@ npm mongoose@
 
 The user must turn on the server by entering the following command in the command line:
 
-
+npm run dev
 
 ## Tests
 
-All routes were tested using Insomnia. Please see screenshots and video walk-through;
+All routes were tested using Insomnia. Please see screenshots and video walk-through:
 
-![alt text](assets/images/screenshot.png)
+![Screenshot Starting Server](assets/screenshots/ScreenshotStartServer.png)
 
 ## Credits
 
-I collaborated with the following individuals: Fellow student Melissa Cade and Tutor Megan Meyers.
+I collaborated with the following individuals: Fellow students Tyler Meyers and Melissa Cade and Tutor Megan Meyers.
 
 I also consulted the following third-party assets:
+
+MongoDB Crud Operations: https://www.mongodb.com/docs/manual/crud/
+MongoDB Data Modeling: https://www.mongodb.com/docs/manual/data-modeling/#link-related-data
+MongoDB Databases and Collections: https://www.mongodb.com/docs/manual/core/databases-and-collections/
+MongoDB mongosh Methods: https://www.mongodb.com/docs/manual/reference/method/js-cursor/
+
+Mongoose Connections: https://mongoosejs.com/docs/connections.html
+Mongoose CRUD Operations: https://mongoosejs.com/docs/queries.html
+Mongoose Defining your schema: https://mongoosejs.com/docs/guide.html
+Mongoose Instance Methods: https://mongoosejs.com/docs/guide.html#methods
+Mongoose Middleware: https://mongoosejs.com/docs/middleware.html
+Mongoose Models: https://mongoosejs.com/docs/models.html
+Mongoose Populate: https://mongoosejs.com/docs/populate.html
+Mongoose Query Helpers: https://mongoosejs.com/docs/typescript/query-helpers.html
+Mongoose Subdocuments: https://mongoosejs.com/docs/subdocs.html#finding-a-subdocument
+Mongoose Validation: https://mongoosejs.com/docs/validation.html
 
 ## License
 
@@ -80,8 +95,8 @@ Please reach out by email or visit my GitHub account with any questions:
 
 - Email: lataillep@gmail.com
 - GitHub Username: lavendarqueen
-- Deployed Website: <Link>
-- GitHub Repository: <https://github.com/lavendarqueen/Social-Network-API
+- Video Walk-Through: https://drive.google.com/file/d/1E7KsyQaq61YfH0Wqq0dUMp0GBSgqedJN/view?usp=sharing
+- GitHub Repository: https://github.com/lavendarqueen/Social-Network-API
 
 ## User Story
 
